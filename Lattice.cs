@@ -76,45 +76,7 @@ namespace CellularAutomata
                 }
             }
         }
-
-        //public Lattice(bool[][] template)
-        //{
-        //    this.width = template.GetLength(1);
-        //    this.height = template.GetLength(0);
-        //    grid = new Cell[height][];
-        //    for (int i = 0; i < height; ++i)
-        //    {
-        //        Cell[] row = grid[i];
-        //        row = new Cell[width];
-
-        //        for (int j = 0; j < width; ++j)
-        //        {
-        //            Cell field = row[j];
-        //            bool status = template[j][i];
-        //            field = new Cell(this, j, i, status);
-        //        }
-        //    }
-        //}
-
-        //public Lattice(int[][] template)
-        //{
-        //    this.width = template.GetLength(1);
-        //    this.height = template.GetLength(0);
-        //    grid = new Cell[height][];
-        //    for (int i = 0; i < height; ++i)
-        //    {
-        //        Cell[] row = grid[i];
-        //        row = new Cell[width];
-
-        //        for (int j = 0; j < width; ++j)
-        //        {
-        //            Cell field = row[j];
-        //            bool status = Convert.ToBoolean(template[j][i]);
-        //            field = new Cell(this, j, i, status);
-        //        }
-        //    }
-        //}
-
+     
         public Cell this[int x, int y] 
         {
             get 
@@ -125,17 +87,6 @@ namespace CellularAutomata
                 return grid[x % width, y % height]; 
             }
         }
-
-        //public void Print()
-        //{
-        //    for (int i = 0; i < width; ++i)
-        //    {
-        //        for (int j = 0; j < height; ++j)
-        //        {
-        //            Console.WriteLine($"({i}, {j}) --> {grid[i, j].IsAlive.ToString()}");
-        //        }
-        //    }
-        //}
 
         public void KillAll()
         {
