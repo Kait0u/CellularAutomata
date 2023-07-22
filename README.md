@@ -11,17 +11,17 @@ This is a cellular automaton simulator, by default configured with the rules of 
 + Alive cell count
 
 ## Controls
-<kbd>P</kbd> - pause mode
-<kbd>E</kbd> - edit mode
-<kbd>D</kbd> - dark mode
-
-<kbd>C</kbd> - clear the board
-<kbd>R</kbd> - randomize the board
-<kbd>G</kbd> - toggle border
+<kbd>P</kbd> - pause mode<br>
+<kbd>E</kbd> - edit mode<br>
+<kbd>D</kbd> - dark mode<br>
+<br>
+<kbd>C</kbd> - clear the board<br>
+<kbd>R</kbd> - randomize the board<br>
+<kbd>G</kbd> - toggle border<br>
 
 ### Edit mode controls
-<kbd>LMB</kbd> - enable (vivify) a cell
-<kbd>RMB</kbd> - disable (kill) a cell
+<kbd>LMB</kbd> - enable (vivify) a cell<br>
+<kbd>RMB</kbd> - disable (kill) a cell<br>
 
 ## Customization
 + You can change the vivification and killing rules to your liking by adding appropriate lambdas in the `Application.cs` file
