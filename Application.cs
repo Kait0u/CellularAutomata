@@ -10,9 +10,9 @@ namespace CellularAutomata
     {
         public void Run()
         {
-            CellularAutomaton cellularAutomaton = new CellularAutomaton(80, 45);
+            CellularAutomaton cellularAutomaton = new CellularAutomaton(64, 36);
             uint[] windowResolution = new uint[2] { 1600, 900 };
-            uint cellSize = 20;
+            uint cellSize = 25;
             
             
             Random random = new Random();
