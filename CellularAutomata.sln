@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CellularAutomata", "CellularAutomata.csproj", "{B8A2930E-5DC3-4459-ABB5-6E2649CB050F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8A2930E-5DC3-4459-ABB5-6E2649CB050F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8A2930E-5DC3-4459-ABB5-6E2649CB050F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8A2930E-5DC3-4459-ABB5-6E2649CB050F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8A2930E-5DC3-4459-ABB5-6E2649CB050F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E4F3797-35EE-4EDA-924C-093D350B93AA}
+	EndGlobalSection
+EndGlobal
