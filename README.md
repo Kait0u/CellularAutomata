@@ -1,6 +1,6 @@
 # CellularAutomata
 
-## Introcution
+## Introduction
 
 This is a cellular automaton simulator, by default configured with the rules of The Game of Life. It's written in C#, with the graphical interface coded in SFML.Net.
 
